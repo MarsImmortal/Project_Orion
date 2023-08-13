@@ -54,6 +54,6 @@ app.get("/test", (req, res) => {
 });
 
 app.listen(port, function () {
-    console.log(`\n Listening on port ${port} \n \n \t to access cmd+click on this link ====>\n \n \t \t \t \t \t http://localhost:${port}/`);
+    console.log(`\n Listening on port ${port} \n \n \t to access cmd+click on this link ====>\n \n \t \t \t \t \t http://localhost:${port}/test`);
   });
   
